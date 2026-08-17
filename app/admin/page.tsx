@@ -31,7 +31,7 @@ export default function AdminPage(){
                 <h1 className="mb-6 text-3xl font-bold">Cadastrar Lanche</h1>
                 <form onSubmit={cadastrarLanche} className="space-y-5">
                     <div>
-                        <label>Nome:</label>
+                        <label>Nome</label>
                         <input type="text"
                         value={nome}
                         onChange={(e)=> setNome(e.target.value)}

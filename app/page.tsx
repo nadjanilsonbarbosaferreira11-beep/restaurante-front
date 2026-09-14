@@ -58,7 +58,7 @@ export default function loginUsuario() {
           placeholder="Digite o nome de usuário..."
           value={usuario}
           onChange={(e)=>setUsuario(e.target.value)}
-          className="w-full rounded-lg border p-3 outline-none text-white placeholder:text-gray-500"
+          className="w-full rounded-lg border p-3 outline-none text-white bg-white placeholder:text-gray-500"
           />
 
          <label className="text-black">Email</label>
@@ -66,14 +66,14 @@ export default function loginUsuario() {
         placeholder="Digite seu email..."
         value={email}
         onChange={(e)=>setEmail(e.target.value)}
-        className="w-full rounded-lg border p-3 outline-none text-white placeholder:text-gray-500" />
+        className="w-full rounded-lg border p-3 outline-none text-white bg-white placeholder:text-gray-500" />
 
           <label className="text-black">Senha</label>
           <input type="password" 
           placeholder="Digite o nome de usuário..."
           value={senha}
           onChange={(e)=>setSenha(e.target.value)}
-          className="w-full rounded-lg border p-3 outline-none text-white placeholder:text-gray-500"
+          className="w-full rounded-lg border p-3 outline-none text-white bg-white placeholder:text-gray-500"
           />
 
           <button onClick={entrar}

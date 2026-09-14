@@ -26,6 +26,8 @@ export default function Navbar(){
                     <Link href="/pedidos" className="text-white hover:text-green-500 transition">
                     Fazer pedidos
                     </Link>
+
+                    <Link href="/login" className="text-white hover:text-green-500 transition">Login</Link>
                 </div>
 
             </nav>
